@@ -10,7 +10,7 @@ import Footer2 from "./../layout/footer-2";
 import Testimonial2 from "../element/testimonial-2";
 import OurFeatures from "../element/our-features"
 import OurFeatures3 from "../element/our-features-3"
-import OurFeatures2 from "../element/our-features-2"
+
 function AboutUs2() {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -117,7 +117,7 @@ function AboutUs2() {
         </section>
 
         {/* <!-- About us --> */}
-        <AboutUs_2/>
+        {/* <AboutUs_2/> */}
 
 
         {/* <!-- Counters --> */}
