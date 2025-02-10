@@ -25,15 +25,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aboutPage": [
+    "/internships": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aboutPage.js"
+      "static/chunks/pages/internships.js"
+    ],
+    "/ourResources": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ourResources.js"
     ],
     "/volunteer": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/volunteer.js"
+    ],
+    "/wishlistPage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/wishlistPage.js"
     ]
   },
   "ampFirstPages": []

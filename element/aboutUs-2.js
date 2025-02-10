@@ -24,7 +24,9 @@ function AboutUs_2() {
 							<li>Donec fringilla velit risus, in imperdiet turpis euismod quis.</li>
 							<li>Aliquam pulvinar diam tempor erat pellentesque, accumsan mauri.</li>
 						</ul> */}
-						<Link href="/about-us-2"><a className="btn btn-primary rounded-xl gradient">Learn More</a></Link>
+						{/* <Link href="/about-us-2"> */}
+						<a className="btn btn-primary rounded-xl gradient">Learn More</a>
+						{/* </Link> */}
 					</div>
 				</div>
 			</div>

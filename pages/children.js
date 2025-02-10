@@ -147,7 +147,7 @@ function Health() {
         of CBO community members (excluding those working with the hijra and male populations) 
         for the provision of uniforms, textbooks, and other materials required to ensure 
         their attendance at a BMC school. 
-        <a href="/" className="text-primary">
+        <a href="/donations" className="text-primary">
           To help sponsor a child's education, please click here.
         </a>
       </p>

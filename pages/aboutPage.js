@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
 import ClientSlider from "../component/clientSlider";
 import Blog2 from "../element/blog-2";
@@ -17,8 +17,28 @@ import AllServices2 from "../element/cbos"
 import AllServices from "../element/all-services"
 import AllServices3 from "../element/all-services-3"
 import OurHistory from "../element/ourHistory";
+
 function AboutPage() {
   const [isOpen, setOpen] = useState(false);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const post = await fetch("http://145.223.21.6:1337/api/updates");
+        const res = await post.json();
+        console.log(res);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+  const content = [
+    {
+      type: 'paragraph',
+      children: [{ type: 'text', text: 'A simple paragraph' }],
+    },
+  ];
   return (
     <>
       <Header />
@@ -30,7 +50,7 @@ function AboutPage() {
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
-              <h1>About Us 2</h1>
+              <h1>About Us</h1>
               {/* <!-- Breadcrumb Row --> */}
               <nav aria-label="breadcrumb" className="breadcrumb-row">
                 <ul className="breadcrumb">
@@ -152,7 +172,7 @@ function AboutPage() {
 						</div>
 					</div>
 				</div>
-                <OurFeatures/>
+                {/* <OurFeatures/> */}
 			</div>	
         </section>
 

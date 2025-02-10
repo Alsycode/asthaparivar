@@ -12,11 +12,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={13}/>+</h2>
 									<span className="title">Community Based Organisations</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-smile"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -25,11 +25,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={10818}/>+</h2>
 									<span className="title">Social Entitlements Provided</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-line-chart"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -38,11 +38,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={145}/>+</h2>
 									<span className="title">AmazonWishlist Donations</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-startup"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -51,11 +51,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={254}/>+</h2>
 									<span className="title">HIV Positive Support Groups</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-confetti"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -64,11 +64,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={642}/>+</h2>
 									<span className="title">Children Helped</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-confetti"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -77,11 +77,11 @@ function Counter2() {
 								<div className="icon-content">
 									<h2 className="m-b0 text-primary"><Counterup count={29520}/>+</h2>
 									<span className="title">Health Camps Attendance</span>
-									<div className="icon-md text-primary"> 
+									{/* <div className="icon-md text-primary"> 
 										<span className="icon-cell">
 											<i className="flaticon-confetti"></i>
 										</span> 
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

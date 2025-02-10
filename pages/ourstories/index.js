@@ -4,7 +4,18 @@ import Link from 'next/link';
 import Blog from "../../element/blog"
 import Blog2 from "../../element/blog-2"
 import Blog3 from "../../element/blog-3"
+import { useEffect, useState } from "react";
 function OurStories() {
+	const [blogs, setBlogs] = useState(null);
+// useEffect(()=>{
+// 	const fetchBlogs = async () => {
+// 		const response = await fetch("http://145.223.21.6:1337/api/updates?populate=*") 
+// 		const data = await response.json();
+// 		setBlogs(data?.data)
+// 	}
+// 	fetchBlogs();
+// },[])
+console.log("blogssss", blogs)
   return (
    <>
 	<Header3/>

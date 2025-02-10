@@ -18,12 +18,12 @@ function Storydetails() {
 				<div className="dlab-bnr-inr style-2 overlay-gradient-dark" style={{ "backgroundImage": "url(images/banner/bnr1.jpg)" }}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1>Blog Single</h1>
+							<h1>Our Story</h1>
 							{/* <!-- Breadcrumb Row --> */}
 							<nav aria-label="breadcrumb" className="breadcrumb-row">
 								<ul className="breadcrumb">
 									<li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
-									<li className="breadcrumb-item active" aria-current="page">Blog</li>
+									<li className="breadcrumb-item active" aria-current="page">Our Story</li>
 								</ul>
 							</nav>
 							{/* <!-- Breadcrumb Row End --> */}
@@ -49,7 +49,7 @@ function Storydetails() {
 											
 										</ul>
 									</div>
-									<h4 className="dlab-title">Maecenas aliquet quam sed tellus cursus, eget sodales elit luctus. Proin blandit sed arcu sed ultricies fusce ac ligula vel enim fermentum blandit.</h4>
+									<h4 className="dlab-title">{blog?.title}</h4>
 									<div className="dlab-post-text">
 										<p>Donec suscipit porta lorem eget condimentum. Morbi vitae mauris in leo venenatis varius. Aliquam nunc enim, egestas ac dui in, aliquam vulputate erat. Curabitur porttitor ante ut odio vestibulum, et iaculis arcu scelerisque. Sed ornare mi vitae elit molestie malesuada. Curabitur venenatis venenatis elementum. Etiam ullamcorper metus vel leo convallis, quis bibendum tortor congue. Vivamus dapibus eu ex sed tempus.</p>
 										<p>Maecenas aliquet quam sed tellus cursus, eget sodales elit luctus. Proin blandit sed arcu sed ultricies. Fusce ac ligula vel enim fermentum blandit. Proin cursus massa ipsum, at lacinia erat elementum sit amet. Quisque sem tortor, convallis in arcu eu, accumsan finibus massa. Donec et sapien risus. Duis feugiat, odio vulputate dignissim consectetur, diam metus dictum sapien, at tincidunt nibh eros vel velit. Aenean accumsan et eros et hendrerit. In metus quam, consequat id imperdiet eu, suscipit a nulla. Morbi mollis eu sem et condimentum. Pellentesque iaculis imperdiet purus ut tincidunt.</p>

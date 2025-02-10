@@ -58,9 +58,15 @@ function BlogSlider2() {
 										</li> */}
 									</ul>
 								</div>
-								<h4 className="dlab-title"><Link href="/blog-details-2"><a>2018 International Women’s Day Remembered</a></Link></h4>
+								<h4 className="dlab-title">
+									{/* <Link href="/blog-details-2"> */}
+									<a>2018 International Women’s Day Remembered</a>
+									{/* </Link> */}
+									</h4>
 								<p className="m-b20">Aastha Parivaar Unit 2 (AP 2) and Targeted Intervention Centre, Aasha Darpaan (AD), support a community of female sex workers (FSW) in the Grant Road suburb of Mumbai. This support includes, but is not limited to: facilitating events, health check ups, HIV screening, counselling and condom distribution.</p>
-								<Link href="blog-details-2"><a className="btn-link style-1">Read More</a></Link>
+								{/* <Link href="blog-details-2"> */}
+								<a className="btn-link style-1">Read More</a>
+								{/* </Link> */}
 							</div>
 						</div>
 					</div>
@@ -79,11 +85,17 @@ function BlogSlider2() {
 										</li> */}
 									</ul>
 								</div>
-								<h4 className="dlab-title"><Link href="/blog-details-2"><a>Breaking the Cycle with Amazon Wishlist</a></Link></h4>
+								<h4 className="dlab-title">
+									{/* <Link href="/blog-details-2"> */}
+									<a>Breaking the Cycle with Amazon Wishlist</a>
+									{/* </Link> */}
+									</h4>
 								<p className="m-b20">Aastha Parivaar recently launched Life Skill Education Sessions; an initiative aimed at the children of our Aastha Parivaar key population communities.
 
 The children, aged between 10 and 16 years, often come from deeply impoverished and dysfunctional families. These sessions aim to educate children on critical thinking; crisis identification and de-escalation; problem solving, and safety as well as encouraging school attendance until completion of college.</p>
-								<Link href="/blog-details-2"><a className="btn-link style-1">Read More</a></Link>
+								{/* <Link href="/blog-details-2"> */}
+								<a className="btn-link style-1">Read More</a>
+								{/* </Link> */}
 							</div>
 						</div>
 					</div>
@@ -102,9 +114,15 @@ The children, aged between 10 and 16 years, often come from deeply impoverished 
 										</li> */}
 									</ul>
 								</div>
-								<h4 className="dlab-title"><Link href="/blog-details-2"><a>Funding the Non-Funded</a></Link></h4>
+								<h4 className="dlab-title">
+									{/* <Link href="/blog-details-2"> */}
+									<a>Funding the Non-Funded</a>
+									{/* </Link> */}
+									</h4>
 								<p className="m-b20">In the face of depleted funding, Aastha Parivaar’s CBOs are finding innovative ways to finance their outreach</p>
-								<Link href="/blog-details-2"><a className="btn-link style-1">Read More</a></Link>
+								{/* <Link href="/blog-details-2"> */}
+								<a className="btn-link style-1">Read More</a>
+								{/* </Link> */}
 							</div>
 						</div>
 					</div>
